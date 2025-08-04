@@ -1,0 +1,49 @@
+PODS:
+  - DocumentReader (7.7.4634):
+    - RegulaCommon (= 7.7.1250)
+  - DocumentReaderFullRFID (7.7.11999)
+  - Flutter (1.0.0)
+  - flutter_document_reader_api (7.7.262):
+    - DocumentReader (= 7.7.4634)
+    - Flutter
+  - flutter_document_reader_core_fullrfid (7.7.152):
+    - DocumentReaderFullRFID (= 7.7.11999)
+    - Flutter
+  - permission_handler_apple (9.3.0):
+    - Flutter
+  - RegulaCommon (7.7.1250)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_document_reader_api (from `.symlinks/plugins/flutter_document_reader_api/ios`)
+  - flutter_document_reader_core_fullrfid (from `.symlinks/plugins/flutter_document_reader_core_fullrfid/ios`)
+  - permission_handler_apple (from `.symlinks/plugins/permission_handler_apple/ios`)
+
+SPEC REPOS:
+  trunk:
+    - DocumentReader
+    - DocumentReaderFullRFID
+    - RegulaCommon
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_document_reader_api:
+    :path: ".symlinks/plugins/flutter_document_reader_api/ios"
+  flutter_document_reader_core_fullrfid:
+    :path: ".symlinks/plugins/flutter_document_reader_core_fullrfid/ios"
+  permission_handler_apple:
+    :path: ".symlinks/plugins/permission_handler_apple/ios"
+
+SPEC CHECKSUMS:
+  DocumentReader: e3253faeb02b6aebc0e3dc118b619dd4653bd514
+  DocumentReaderFullRFID: 1c049e7449a997eb32cc438cc128a17861e996de
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  flutter_document_reader_api: 10fcb2a1b766bbea9ae774e14b0de09a0f17d90e
+  flutter_document_reader_core_fullrfid: 962897d79df8e92a0f50d052218dd885ac468169
+  permission_handler_apple: 4ed2196e43d0651e8ff7ca3483a069d469701f2d
+  RegulaCommon: dc8ed800cb75f7ea91b9db5b02bb5974e22af47e
+
+PODFILE CHECKSUM: 62565b557c629439dd39d5022bf406dfffcd216e
+
+COCOAPODS: 1.16.2
