@@ -24,3 +24,9 @@ A Flutter-based mobile app integrating the Regula Document Reader SDK to scan an
     Regula Document Reader SDK
     
     Platform channels for native integration
+
+ 📄 Place your Regula license file in:
+
+> assets/regula.license`
+> download regula.licence from Regula official client portal
+> This file is required to run the app on a real device and is not included in the repository.
